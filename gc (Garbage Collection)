@@ -7,3 +7,10 @@ Parallel GC
 Parallel Old GC(Parallel Compacting GC)
 Concurrent Mark & Sweep GC(이하 CMS)
 G1(Garbage First) GC
+
+
+
+python GC 종류
+
+레퍼런스 카운팅(Reference counting)
+세대별 가비지 컬렉션(Generational garbage collection)
