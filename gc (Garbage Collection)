@@ -1,0 +1,9 @@
+사용하지 않는 메모리를 자동적으로 회수하는 시스템을 gc 가비지 컬렉션이라고 한다
+
+java GC 종류
+
+Serial GC
+Parallel GC
+Parallel Old GC(Parallel Compacting GC)
+Concurrent Mark & Sweep GC(이하 CMS)
+G1(Garbage First) GC
