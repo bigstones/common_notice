@@ -1,0 +1,19 @@
+pragma는 컴파일러에게 직접 명령을 내리는 지시자를 의미한다
+
+종류는 
+
+- #pragma once() : compile을 한번만 실행
+   ㆍheader가 여러번 include 되는 것을 방지(≒#idndef)
+- #pragma warning() : 특정 경고 설정
+   ㆍdefault : n → n번의 경고를 원래 설정으로 되돌림
+   ㆍdisable : n → n번의 경고 출력하지 않음
+   ㆍerror : n →  n번의 경고를 에러로 표시
+   ㆍlevel : n →  경고의 레벨 변경
+   ㆍpop →  stack에 저장된 마지막 경고를 복원
+- #pragma comment() : Library를 include 할 때 사용
+- #pragma pack() : 메모리 공간 최적화(구조체의 정렬방식 지정)
+   ㆍdefault → 기존 정렬방식으로 변경
+   ㆍpush, n →  n으로 정렬방식을 바꾸고, 기존 정렬방식은 stack에 저장
+   ㆍpop →  stack에 저장한 정렬방식으로 변경
+
+등이 있다 
