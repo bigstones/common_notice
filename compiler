@@ -1,0 +1,10 @@
+java
+
+주로 jvm이라고 부른다
+인터프리터 이지만 주로 virtualmachine 의 줄인말 vm 을 j(ava)에 붙여 jvm이라고 한다
+
+
+python
+
+주로 python interpreter 라고 부른다
+인터프리터라는 단어는 정확하지만 자바 컴파일러와 같은 줄인말(jvm)은 사용하지 않는 듯 하다
